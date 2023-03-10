@@ -4,7 +4,7 @@ import TodoItems from "./components/todoItems/TodoItems";
 
 function App() {
   return (
-    <div>
+    <div className="main">
       <Header></Header>
       <Buttons></Buttons>
       <TodoItems></TodoItems>
