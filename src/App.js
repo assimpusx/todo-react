@@ -1,6 +1,12 @@
+import Header from "./components/header/Header";
+import Buttons from "./components/buttons/Buttons";
+
 function App() {
   return (
-    <h1>Привет, React!</h1>
+    <div>
+      <Header></Header>
+      <Buttons></Buttons>
+    </div>
   );
 }
 
