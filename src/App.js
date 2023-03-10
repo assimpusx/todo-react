@@ -7,6 +7,7 @@ function App() {
     <div>
       <Header></Header>
       <Buttons></Buttons>
+      <TodoItems></TodoItems>
     </div>
   );
 }
