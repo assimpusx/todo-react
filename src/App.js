@@ -25,7 +25,11 @@ function App() {
     <div className="main">
       <Header></Header>
       <Buttons></Buttons>
-      <TodoItems></TodoItems>
+      <TodoItems
+        taskName = {tasks[0].taskName}
+        taskDescription = {tasks[0].taskDescription}
+        taskStatus = {tasks[0].taskStatus}
+      ></TodoItems>
     </div>
   );
 }

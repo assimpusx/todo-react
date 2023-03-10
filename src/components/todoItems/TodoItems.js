@@ -1,9 +1,11 @@
 import './TodoItems.css';
 
-function TodoItems() {
+function TodoItems(props) {
     return(
         <div className='main-todoitems'>
-            <p>Task #1</p>
+            <p>{props.taskName}</p>
+            <p>{props.taskDescription}</p>
+            <button>{props.taskStatus}</button>
         </div>
     );
 }
