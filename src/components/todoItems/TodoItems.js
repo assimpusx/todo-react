@@ -1,8 +1,7 @@
 function TodoItems() {
     return(
         <div>
-            <button>Add</button>
-            <button>Remove</button>
+            <p>Task #1</p>
         </div>
     );
 }
