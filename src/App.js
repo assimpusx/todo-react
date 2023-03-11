@@ -23,13 +23,13 @@ function App() {
 
   return (
     <div className="main">
-      <Header></Header>
-      <Buttons></Buttons>
+      <Header />
+      <Buttons />
       <TodoItems
         taskName = {tasks[0].taskName}
         taskDescription = {tasks[0].taskDescription}
         taskStatus = {tasks[0].taskStatus}
-      ></TodoItems>
+      />
     </div>
   );
 }

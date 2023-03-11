@@ -2,3 +2,22 @@
     display: flex;
     justify-content: center;
 }
+
+.main-buttons button {
+    margin: 1em;
+    padding: 0.5em;
+}
+
+.main-buttons__add {
+    background-color: chartreuse;
+    border-radius: 15%;
+    border: 0px;
+    box-shadow: 5px 2px 2px black;
+}
+
+.main-buttons__remove {
+    background-color: crimson;
+    border-radius: 15%;
+    border: 0px;
+    box-shadow: 5px 2px 2px black;
+}
